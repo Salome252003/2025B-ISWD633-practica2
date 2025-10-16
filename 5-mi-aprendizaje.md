@@ -16,7 +16,7 @@ echo "clave123" | docker secret create mi_clave -   //crear un secreto
 docker secret ls   //ver los resultados disponibles 
 docker secret inspect mi_clave    //Inspeccionar un secreto
 /run/secrets/mi_clave    //Acceder al secreto dentro del contenedo
-docker secret rm mi_clave    //Elominar un secreto 
+docker secret rm mi_clave    //Eliminar un secreto 
 
 Por lo tanto, Docker Secrets ofrece un mecanismo seguro y profesional para gestionar credenciales dentro de entornos Docker, mejorando la seguridad, portabilidad y confiabilidad de las aplicaciones en producción.
 Es una práctica recomendada frente al uso de variables de entorno cuando se manejan datos sensibles.
