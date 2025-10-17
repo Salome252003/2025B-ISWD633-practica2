@@ -50,9 +50,32 @@ docker network ls
 
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
 
+<img width="792" height="280" alt="image" src="https://github.com/user-attachments/assets/2217b7ac-430c-4270-aff0-22e3ea4cabdd" />
+
+
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
 
-### Para eliminar las redes creadas
+## Creación de los contenedores en la red 
+
+<img width="1043" height="137" alt="image" src="https://github.com/user-attachments/assets/96bcc813-a971-4310-ae29-ab5c4703f7e0" />
+
+## Creación del contenedor en la red curso01
+
+<img width="1058" height="47" alt="image" src="https://github.com/user-attachments/assets/61adf29c-466f-4ed7-ab5e-d37e5f763fb5" />
+
+## Para ver en que red estan los contenedores 
+
+Red curso01
+
+<img width="1690" height="907" alt="image" src="https://github.com/user-attachments/assets/ad882875-c69e-4c95-bcc8-06106f589138" />
+
+<img width="1842" height="1002" alt="image" src="https://github.com/user-attachments/assets/eab3e81d-973f-4b9c-8ca4-6aeaf63cc2ab" />
+
+Red curso02
+
+<img width="1862" height="1007" alt="image" src="https://github.com/user-attachments/assets/bb0a4c73-1cad-46c0-a2a1-bc70f1269fd8" />
+
+### Para eliminar las redes creadas curso02
 ```
 docker network rm <nombre de la red>
 ```
