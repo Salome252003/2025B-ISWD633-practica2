@@ -41,6 +41,11 @@ recordar que a es el puerto que usó para el mapeo con wordpress
 ### Eliminar el contenedor wordpress
 # COMPLETAR
 
+docker rm -f contenedor-wordpress
+
+<img width="667" height="51" alt="image" src="https://github.com/user-attachments/assets/e9372838-9440-4876-81e3-929b46d13e70" />
+
+
 ### Crear nuevamente el contenedor wordpress
 Ingresar a: http://localhost:9300/ 
 recordar que a es el puerto que usó para el mapeo con wordpress
@@ -48,3 +53,4 @@ recordar que a es el puerto que usó para el mapeo con wordpress
 ### ¿Qué ha sucedido, qué puede observar?
 # COMPLETAR
 
+El sitio web se mantiene con la configuración y la publucación recientemente creado y esto ocurre porque la información se almacena en la base de datos MySQL
